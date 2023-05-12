@@ -27,7 +27,7 @@ provider "digitalocean" {
 resource "digitalocean_kubernetes_cluster" "coder" {
   name   = "coder"
   region = "nyc1"
-  version = "1.25.4-do.0"
+  version = "1.25"
 
   node_pool {
     name       = "default"
